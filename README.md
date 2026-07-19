@@ -8,7 +8,7 @@ Offesy is a modern project management platform built to help teams collaborate, 
 
 ## Demo
 
-[![Watch Demo](screenshots/offesy-screenshot-1.png)](https://www.linkedin.com/posts/shivam-pandey-b8078a358_buildinpublic-nextjs-typescript-ugcPost-7484473493233803264-3b2o/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkaphABQG8UMwO905gMo6adEFDwdPVm_TU)
+[![Watch Demo](Screenshots/offesy-screenshot-1.png)](https://www.linkedin.com/posts/shivam-pandey-b8078a358_buildinpublic-nextjs-typescript-ugcPost-7484473493233803264-3b2o/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkaphABQG8UMwO905gMo6adEFDwdPVm_TU)
 
 
 # Features
