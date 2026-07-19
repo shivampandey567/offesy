@@ -52,6 +52,8 @@ Offesy is a modern project management platform built to help teams collaborate, 
 * Threaded discussions
 * Collaboration on projects
 * Collaboration on issues
+* add attatchments like picutures
+* Do reactions
 
 ### Notifications
 
@@ -117,17 +119,34 @@ Users
 Clerk Authentication
    │
    ▼
+Create workspace
+   │
+   ▼
+Set up profile
+   │
+   ▼
+Redirects to
+   │
+   ▼
 Workspace
    │
    ├── Members
    │
    ├── Teams
    │      │
-   │      └── Projects
-   │               │
-   │               └── Issues
+   |      |──Team-members
+   |      |
+   │      |── Projects────Comments────Reactions
+   |      |        |             |
+   |      |        |             └────Send-files
+   │      |        │
+   │      └────────└──── Issues────Sub-issues
    │                        │
-   │                        └── Comments
+   │                        |──────Comments────Reactions
+   |                        |         |
+   |                        |         └────────Send-files
+   |                        |
+   |                        └──────Attachments
    │
    └── AI Assistant (LLM)
 
@@ -177,14 +196,14 @@ utils/
 
 * User
 * Workspace
-* WorkspaceMember
 * Team
-* TeamMember
 * Project
 * Issue
 * Comment
 * Notification
 * Activity
+* AiChats
+* Invite
 
 ---
 
